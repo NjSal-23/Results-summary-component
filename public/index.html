@@ -8,6 +8,49 @@
   <link rel="stylesheet" href="/public/styles.css">
 </head>
 <body>
-  <p class="text-2xl underline">Hello World!</p>
+  <header></header>
+
+  <main>
+    <section class="lg:flex lg:w-96 lg:shadow-lg lg:rounded-3xl lg:m-auto lg:content-center lg:mt-28">
+      <div class="flex flex-col justify-center items-center bg-purple h-80 lg:w-64 rounded-b-3xl lg:rounded-3xl">
+        <div class="text-gray text-sm mb-4">Your Results</div>
+        <div class=" bg-gradient-to-b from-shadow-purple to-purple rounded-full w-28 h-28 flex flex-col justify-center text-center mb-4">
+          <div class="text-4xl text-bold text-white">76</div>
+          <div class="text-gray text-[.6rem] text-center opacity-75">of 100</div>
+        </div>
+        <div class="text-white mb-3">Great</div>
+        <div class="text-[.6rem] pl-5 pr-5 text-center text-gray">You scored higher than 65% of the people who have taken these tests.</div>
+      </div>
+      <div class="flex flex-col justify-center lg:w-64 mt-10 lg:mt-0">
+        <div class="text-left text-sm mb-6 lg:mb-0 font-bold lg:pb-3 pl-5">Summary</div> 
+        <div class="w-54 pl-5 pr-5">
+          <div class="bg-light-salmon flex justify-between text-[.6rem] h-12 lg:h-8 mb-3">
+            <div class="flex pl-2 items-center"><img class="h-4 pr-2" src="/images/icon-reaction.svg" alt="lightning symbol"></div>
+            <div class="flex items-center font-bold text-salmon pr-6 ">Reaction</div>
+            <div class="flex items-center pr-2"><span class="font-bold pr-1">80</span> / 100</div>
+          </div>
+          <div class="bg-light-yellow flex justify-between text-[.6rem] h-12 lg:h-8 mb-3">
+            <div class="flex pl-2 items-center"><img class="h-4 pr-2" src="/images/icon-memory.svg" alt="brain symbol"></div>
+            <div class="flex items-center font-bold text-yellow pr-6 text-start">Memory</div>
+            <div class="flex items-center pr-2"><span class="font-bold pr-1">92</span> / 100</div>
+          </div>
+          <div class="bg-light-green flex justify-between text-[.6rem] h-12 lg:h-8 mb-3">
+            <div class="flex pl-2 items-center"><img class="h-4 pr-2" src="/images/icon-verbal.svg" alt="chat symbol"></div>
+            <div class="flex items-center font-bold text-green pr-6 text-start">Verbal</div>
+            <div class="flex items-center pr-2"><span class="font-bold pr-1">61</span> / 100</div>
+          </div>
+          <div class="bg-light-blue flex justify-between text-[.6rem] h-12 lg:h-8 mb-3">
+            <div class="flex pl-2 items-center"><img class="h-4 pr-2" src="/images/icon-visual.svg" alt="eye symbol"></div>
+            <div class="flex items-center font-bold text-blue pr-6 ">Visual</div>
+            <div class="flex items-center pr-2"><span class="font-bold pr-1">72</span> / 100</div>
+          </div>
+          <button class=" bg-dark-gray hover:bg-purple rounded-full py-4 text-md lg:py-2 w-full lg:w-40 m-auto lg:text-[.6rem] text-white">Continue</button>
+          </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
 </body>
 </html>
